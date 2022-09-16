@@ -1,0 +1,25 @@
+.contenedor-opinion{
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 78, 78);
+
+}
+
+.nombre-usuario{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.contenedor-imagen{
+    width: 800px;
+    padding: 20px;
+}
+
+.imagen-opinion{
+    width: 100%;
+}
