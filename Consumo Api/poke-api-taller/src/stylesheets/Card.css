@@ -1,0 +1,99 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border-radius: 10px;
+}
+
+.card__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+.cp-container{
+    padding: 10px;
+}
+.cp-container small{
+    color: rgb(255, 255, 255, 0.4)
+}
+.cp-container span{
+    color: #eee;
+}
+.name-pokemon-container{
+    
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.img-pokemon-container{
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-pokemon-container img{
+    width: 100%;
+}
+.name-pokemon-container{
+    color: #eee;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100%;
+    max-width: 95%;
+    border-radius: 10px;
+    background-color: #0e0d0d;
+
+}
+.data_container{
+    display: flex;
+    gap: 10px;
+    padding: 15px 10px 15px 0;
+}
+.data_container .row{
+    display: flex;
+    gap: 50px
+}
+.data_container .row span{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.data_container .row span:nth-child(3){
+    margin-right: 20px;
+}
+.type-container{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: #fff;
+
+}
+.type-container div{
+    display: flex;
+
+    
+}
+.moves_container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
